@@ -1,0 +1,70 @@
+
+@font-face {
+    font-family: 'Outfit', sans-serif;
+    src: url(https://fonts.google.com/specimen/Outfit);
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+    background-color: hsl(220, 15%, 55%) ;
+}
+
+
+
+.Card {
+    height: 340px;
+    width: 14.0%;
+    position: absolute;
+    top : 50%;
+    left : 50%;
+    background-color: white;
+    border : 5px solid white;
+    border-radius: 10px;
+    transform: translate(-50% , -50%);
+    
+    
+
+
+}
+
+
+
+#img {
+    height: auto;
+    width: auto;
+    background-color: white;
+    border: 8px solid white;
+
+}
+
+
+
+#line1 {
+
+    color: hsl(218, 44%, 22%);
+    font-size: 17px;
+    font-family: 'Outfit';
+    font-weight: 700;
+    background-color: white;
+    padding: 5px;
+    text-align: center;
+    
+
+
+}
+
+#line2 {
+    color: hsl(212, 45%, 89%);
+    font-size: 12px;
+    font-family: 'Outfit';
+    font-weight: 400;
+    background-color: white;
+    border: 5px solid white;
+    text-align: center;
+
+
+
+}
+
