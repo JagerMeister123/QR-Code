@@ -14,8 +14,9 @@
 
 
 .Card {
-    height: 340px;
-    width: 14.0%;
+    min-height: 340px;
+    max-width: 216px;
+
     position: absolute;
     top : 50%;
     left : 50%;
@@ -32,14 +33,15 @@
 
 
 #img {
-    height: auto;
-    width: auto;
     background-color: white;
     border: 8px solid white;
 
 }
 
 
+.Card_description {
+    background-color: white;
+}
 
 #line1 {
 
